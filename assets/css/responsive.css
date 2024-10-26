@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+  /* --primary-bg:#fdffcd; */
+  --primary-bg:#347474;
+  --navbar-bg:#373737;
+  --secondary-bg:#e0ffcd;
+  --light-orange:#ffebbb;
+  --dark-orange :#ffcab0;
+  --text-color-dark:#000000;
+  --text-color-white : #ffffff;
+}
+
+
+
+
+/* small mobile screen  */
+
+@media only screen and (min-width:320px) and (max-width:350px)  {
+
+  .topnav{
+    display: none !important;
+}
+
+.topnavmargin{
+    margin-top: 0px !important;
+  }
+
+  .navbar-brand{
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .navbar-brand img{
+    width: 50px;
+    }
+    
+    .login-button {
+        padding: 5px 7px;
+        margin-left: 3px;
+        margin-right: -5px;
+    }
+
+    .nav-link:hover, .nav-link{
+      color:var(--text-color-dark);
+    }
+
+    .nav-link{
+      color:var(--text-color-dark);
+    }
+
+    .hero-content h1 {
+      font-size: 26px;
+      font-weight: bolder;
+    
+    }
+    .blog-profile-container{
+      display: none;
+    }
+
+    .hero-pic img{
+      width: 100%;
+    }
+    .welcome-bg {
+      padding: 0 20px;
+    }
+
+    .footer ul{
+      display: block;
+      width: 100%;
+    }
+    .footer ul li a{
+      margin: 0;
+    }
+    .copyrights{
+      display: block;
+      width: 100%;
+    }
+    .contact-links{
+      display: block;
+      width:100%;
+    }
+    .mail-calls{
+      margin: 10px;
+    }
+  .copyrights-content{
+     text-align: center;
+      }
+
+      .team-nav ul{
+display: block;
+
+      }
+
+
+      .contact-container{
+        display: block;
+        padding: 38px;
+      }
+
+      .contact-link{
+        margin: 15px 0;
+      }
+
+
+
+
+}
+
+
+/* mobile Screen  */
+
+@media only screen and (min-width:350px) and (max-width:469px)  {
+    
+    .topnav{
+        display: none !important;
+    }
+
+    .topnavmargin{
+        margin-top: 0px !important;
+      }
+
+      .navbar-brand{
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .navbar-brand img{
+        width: 50px;
+        }
+        
+        .login-button {
+            padding: 7px 9px;
+            margin-left: 3px;
+            margin-right: -5px;
+        }
+
+        .nav-link:hover, .nav-link{
+          color:var(--text-color-dark);
+        }
+    
+        .nav-link{
+          color:var(--text-color-dark);
+        }
+
+        .title{
+          width: 100%;
+          margin: 30px auto;
+        }
+    
+        .hero-content h1 {
+          font-size: 33px;
+          font-weight: bolder;
+        }
+        .hero-pic img{
+          width: 100%;
+        }
+
+        .welcome-bg {
+          padding: 0 20px;
+        }
+
+        .footer ul{
+          display: block;
+          width: 100%;
+        }
+        .footer ul li a{
+          margin: 0;
+        }
+        .copyrights{
+          display: block;
+          width: 100%;
+        }
+        .contact-links{
+          display: block;
+          width:100%;
+        }
+        .mail-calls{
+          margin: 10px;
+        }
+      .copyrights-content{
+         text-align: center;
+          }
+          .team-nav ul{
+            display: block;
+            
+                  }
+
+         
+      .contact-container{
+        display: block;
+        padding: 38px;
+      }
+
+   
+      .contact-link{
+        width: 80%;
+        margin: 15px auto;
+      }
+
+
+
+}
+
+
+/* tablet */
+@media only screen and (min-width: 470px) and (max-width: 991px){
+
+  .topnav{
+    display: none !important;
+}
+
+.topnavmargin{
+    margin-top: 0px !important;
+    height: 91px;
+  }
+
+  .nav-link:hover, .nav-link{
+    color:var(--text-color-dark);
+  }
+
+  .nav-link{
+    color:var(--text-color-dark);
+  }
+  .navbar{
+    height: 89px;
+  }
+
+  .title{
+    width: 100%;
+    margin: 30px auto;
+  }
+  .hero-pic img{
+    width: 100%;
+  }
+
+  .welcome-bg {
+    padding: 0 40px;
+  }
+
+  .footer ul{
+    display: block;
+    width: 100%;
+  }
+  .footer ul li a{
+    margin: 10px;
+  }
+  .copyrights{
+    display: block;
+    width: 100%;
+  }
+  .contact-links{
+
+    width:90%;
+    margin: auto;
+  }
+  .mail-calls{
+    margin: 10px;
+  }
+.copyrights-content{
+   text-align: center;
+    }
+
+    .team-nav ul{
+      display: block;
+      
+            }
+
+
+            
+      .contact-container{
+        display: block;
+        padding: 38px;
+        
+      }
+
+      .contact-link{
+        width: 70%;
+        margin: 15px auto;
+      }
+
+
+
+}
