@@ -28,4 +28,4 @@ Nutritionlist is a real-time, multi-page website designed to provide users with 
 To clone this project, use the following command:
 
 ```bash
-git clone https://github.com/yourusername/Nutritionlist.git
+git clone https://github.com/palnativaishnavi/Nutritionlist.git
